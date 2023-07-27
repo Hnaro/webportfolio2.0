@@ -11,7 +11,6 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "proxyConfig": "src/proxy.conf.json",
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs/webportfolio2.0",
