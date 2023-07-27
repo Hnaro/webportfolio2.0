@@ -1,0 +1,6 @@
+{
+  "/api": {
+  "target": "http://hnaroas.com/",
+  "secure": false
+  }
+  }
