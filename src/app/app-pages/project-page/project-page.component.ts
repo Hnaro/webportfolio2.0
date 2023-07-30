@@ -24,6 +24,8 @@ export class ProjectPageComponent implements OnInit{
   gameinfowebImageUrl: string = "assets/img/gameinfowebCover.png"
   gameinfowebgitHubUrl: string = "https://github.com/Hnaro/gameinfowebProd"
   gameinfoWebUrl = "http://3.99.158.183/";
+
+  xsoticZoneImageUrl: string = "assets/img/XsoticZoneCover.png"
   constructor(private activeLink: ActiveLinkService, private route: ActivatedRoute) {
     this.activeLink.setHomeState("Message from home");
   }
